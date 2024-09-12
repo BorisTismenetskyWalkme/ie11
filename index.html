@@ -31,8 +31,8 @@
 <td align="center " valign="middle ">
 <!-- #BeginLibraryItem "/Library/search bar.lbi " -->
 <h4 align="center ">SEARCH</h4>
-<form method=get action=http://search.atomz.com/search/ target="_top ">
-<div align="center "> <input size=15 name=sp-q> <input type=submit value="Go ! " name=submit> <input type=hidden name=sp-a value=00040743-sp00000000>
+<form method=get action=index.html target="_top ">
+<div align="center "> <input size=15 name=sp-q> <input type=submit id="go" value="Go !" name=submit> <input type=hidden name=sp-a value=00040743-sp00000000>
 </div>
 </form>
 <!-- #EndLibraryItem -->
@@ -42,32 +42,36 @@
 <table border="0 " cellspacing="4 " cellpadding="2 " width="100% ">
 <tr align="center " valign="middle ">
 <td>
-<a href="index.html " class="special " target="_top ">
+<a href="index.html" class="special" target="_top">
 <b>
 <font size="4 ">HOME</font>
 </b>
 </a>
+    <button type="button" id="HOME">HOME</button>
 </td>
 <td>
-<a href="basicweb.htm " class="special " target="_top ">
+<a href="#" class="special " target="_top ">
 <b>
 <font size="4 ">TUTORIALS</font>
 </b>
 </a>
+    <button type="button" id="TUTORIALS">TUTORIALS</button>
 </td>
 <td>
-<a href="links.htm " class="special " target="_top ">
+<a href="index.html" class="special" target="_top">
 <b>
 <font size="4 ">LINKS</font>
 </b>
 </a>
+    <button type="button" id="LINKS">LINKS</button>
 </td>
 <td>
-<a href="forum.htm " class="special " target="_top ">
+<a href="index.html" class="special" target="_top">
 <b>
 <font size="4 ">FORUM</font>
 </b>
 </a>
+    <button type="button" id="FORUM">FORUM</button>
 </td>
 <td>
 <b>
@@ -77,12 +81,13 @@
 </b>
 </td>
 <td>
-<a href="news.htm " class="special " target="_top ">
+<a href="index.html" class="special" target="_top">
 <b>
 <font size="4 ">NEWS</font>
 </b>
 </a>
 </td>
+    <button type="button" id="NEWS">NEWS</button>
 </tr>
 </table>
 </td>
@@ -127,28 +132,31 @@
 <p>
 <br> Our tutorials are divided into 3 main groups coving all aspects of web page creation from basic skills to adding video to design advice!</p>
 <p>
-<a href="basicweb2.htm " class="special ">
+<a href="index.html" class="special" target="_top">
 <font size="4 ">
 <b>MAIN TUTORIALS</b>
 </font>
 </a>
+    <button type="button" id="MAIN TUTORIALS">MAIN TUTORIALS</button>
 <br> These look at all you'll need to know to get a great site up and running from the very basics of a text only page to advanced editing like adding JavaScript or forms. And if that sounds too much, <a href="#novice ">start with our novices guide</a>
-<p>We have full tutorials for <a href="html/index.htm ">HTML</a> and 2 common free webpage editors (<a href="fpe/fpehome.htm ">Frontpage Express</a> &amp; <a href="nsc/index.htm ">composer</a>) <hr noshade width=90% size=3>
+<p>We have full tutorials for <a href="index.html" class="special" target="_top">HTML</a> and 2 common free webpage editors (<a href="fpe/fpehome.htm ">Frontpage Express</a> &amp; <a href="index.html" class="special" target="_top">composer</a>) <hr noshade width=90% size=3>
 <p>
-<a href="othettutorials/index.htm " class="special ">
+<a href="index.html" class="special" target="_top">
 <b>
 <font size="4
     ">OTHER TUTORIALS</font>
 </b>
 </a>
+    <button type="button" id="OTHER TUTORIALS">OTHER TUTORIALS</button>
 <br> Want to upload your site or create multimedia elements like video or streamed multimedia? Want some tips on what's cool and what's not in webdesign? Want to register a web address and get your site hosted?<br> Then this area is for you. It deals with web technologies not directly linked to individual web page editors from multimedia<br> <font size="1 ">
-<br> <font face="Arial, Helvetica, sans-serif ">Includes<br> <a href="othettutorials/video/index.htm ">video</a>, <a href="othettutorials/ftp/index.htm ">FTP</a>, <a href="othettutorials/streaming/index.htm ">Streaming Media</a>, <a href="general/multimedia/index.htm
-    ">Digital Imaging</a>, <a href="general/hosting/index.htm ">hosting</a>, <a href="general/design/index.htm ">design</a> tutorials </font>
+<br> <font face="Arial, Helvetica, sans-serif ">Includes<br> <a href="index.html" class="special" target="_top">video</a>, <a href="index.html" class="special" target="_top">FTP</a>, <a href="index.html" class="special" target="_top">Streaming Media</a>, <a href="index.html" class="special" target="_top">
+    Digital Imaging</a>, <a href="index.html" class="special" target="_top">hosting</a>, <a href="index.html" class="special" target="_top">design</a> tutorials </font>
 </font>
 </p> <hr noshade width=90% size=3> <b>
-<a href="howto.htm " class="special ">
+<a href="index.html" class="special" target="_top">
 <font size="4 ">COOL TIPS</font>
 </a>
+    <button type="button" id="COOL TIPS">COOL TIPS</button>
 </b>
 <br> Our cool tips are single cool ideas that you might want to think about adding to your website. From JavaScript clocks, adding search facilities, blocking right clicking, pull down menues to virtual slide shows<br>
 <br> Drop in!!<a name="novice ">
@@ -156,7 +164,7 @@
 <table width=100% border=0 cellspacing=2 cellpadding=2>
 <tr>
 <td width=114 align=center>
-<a href=beginners.htm class=special>
+<a href="index.html" class="special" target="_top">
 <b>Novice?<br> Unsure ?<br> <img src=help.gif width=70 height=46 border=0 alt="Beginner 's help"> </b>
 </a>
 </td>
@@ -184,7 +192,7 @@
                 <td>
                     <br>
                     <div align=center>
-                        <a href=forum.htm>
+                        <a href="index.html" class="special" target="_top">
                             <img src=forum.gif width=70 height=34 border=0 alt="Our Forum - add your views">
                         </a>
                     </div>
@@ -198,21 +206,21 @@
             <tr>
                 <td>
                     <div align=center>
-                        <a href=links.htm>
+                        <a href="index.html" class="special" target="_top">
                             <br> <img src=links.gif width=70 height=34 border=0 alt="Our links">
                         </a>
                     </div>
                 </td>
             </tr>
             <tr>
-                <td>Our <a href=links.htm>links</a> list a host of sites and resources for budding and experienced web designers</td>
+                <td>Our <a href="index.html" class="special" target="_top">links</a> list a host of sites and resources for budding and experienced web designers</td>
             </tr>
         </table>
     </td>
     </tr>
     </table>
     <h4 align=center>
-<a href=index.htm>
+<a href="index.html" class="special" target="_top">
 <img src=back.gif width=48 height=49 alt="Back to Main page" border=0>
 </a>
 <br> BACK TO MAIN PAGE</h4>
@@ -231,14 +239,13 @@
         <!-- #BeginLibraryItem "/Library/bottom link.lbi" -->
        
         <p align="center">
-            <a href="legal.htm" target="newwin" onClick="window.open('','newwin','width=400,height=300,scrollbars=1,scrollbars=yes')" class="special">
-                <font size="2">terms &amp; conditions copyright &#169; 1999-2003</font>
+           <a href="index.html" class="special" target="_top">
             </a>
-            <font size="2"> <a href="legal.htm" target="newwin" onClick="window.open('','newwin','width=400,height=300,scrollbars=1,scrollbars=yes')" class="special">legal notices</a>
-<a href=index.htm target="_top" class="special">
-<br> home</a> <a href=credits.htm target="_top" class="special">credits</a>
+            <font size="2"> <a href="index.html" class="special" target="_top">legal notices</a>
+<a href="index.html" class="special" target="_top">
+<br> home</a> <a href="index.html" class="special" target="_top">credits</a>
 </font> <font size="2">
-<a href=emailme.htm target="_top" class="special">contact us</a> <a href=linktous.htm target="_top" class="special">link to us</a>
+<a href="index.html" class="special" target="_top">contact us</a> <a href="index.html" class="special" target="_top">link to us</a>
 </font>
         </p>
         <!-- #EndLibraryItem -->
